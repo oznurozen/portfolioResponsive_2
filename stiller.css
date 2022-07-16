@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+  }
+ 
+  body, html {
+ height: 100%;
+ }
+ .navbar-nav > li{
+   margin-right: 10px;
+ }
+
+ /*Hero Görseli*/
+ .hero-image {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("resimler/cokluresim.png");
+   height: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   position: relative;
+ }
+ .hero-text {
+   text-align: center;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+ }
+ .hero-text button {
+   border-radius: 50px 20px 50px 20px;
+   outline: 0;
+   display: inline-block;
+   padding: 20px 45px;
+   color: rgb(255, 255, 255);
+   background-color: rgb(68, 0, 0);
+   text-align: center;
+   cursor: pointer;
+ }
+
+ .hero-text button:hover {
+   background-color: rgb(145, 0, 48);
+   color: white;
+ }
+
+
+ /*FORM BÖLÜMÜ*/
+ .heroo-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("resimler/IMG-20170527-WA0009.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+  }
+  .heroo-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  input, textarea{
+    width: 100%;
+  }
+  .buton{
+    background-color: rgb(44, 44, 44);
+    color: white;
+    border-radius: 50px 40px 50px 40px;
+    padding: 10px 30px 10px 30px;
+    position: absolute;
+    bottom:10px;
+    left: 37%;    
+  }
+  
+  .buton:hover{
+    background-color: black;
+  }
+
+
+  /* SOSYAL MEDYA HESAPLARI*/
+  
+  .socialmedya {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+  }
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+  }
+  
+  .socialmedya:hover .overlay {
+    opacity: 1;
+  }
+
+  .icon{
+    position: absolute;
+    width: 100%;
+    max-width: 270px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .socialmedyaa {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+  }
+.imagee {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlayy {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+  }
+  
+  .socialmedyaa:hover .overlayy {
+    opacity: 1;
+  }
+
+  .iconn{
+    position: absolute;
+    width: 100%;
+    max-width: 270px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
